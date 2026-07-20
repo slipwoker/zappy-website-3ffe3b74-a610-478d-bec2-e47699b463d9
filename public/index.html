@@ -1250,7 +1250,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <main id="main">
     <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--primary);" data-hero-type="fullscreen-scrim" id="index-hero-section">
   <!-- Full-bleed background photo -->
-  <div data-zappy-zoom-wrapper="true" data-element-id="img-1784563872308-6v3mduwri" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; z-index: 0 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A sunlit wooden table from a top-down angle, filled with homemade baked goods: a plate of chocolate chip cookies, vanilla cupcakes with pink frosting, a glass of milk, and a small handwritten recipe card with a red heart doodle. Warm morning light streams from the right side, creating soft shadows. The left portion of the image gradually fades to a soft vanilla cream color." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="מאפים ביתיים על שולחן עץ באור בוקר חמים" data-hero-background="true" data-element-type="image" data-element-id="img-1784563872308-6v3mduwri" style="object-position: 0% 50%; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; width: 100% !important; height: 100% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1" decoding="async"></div>
+  <div data-zappy-zoom-wrapper="true" data-element-id="img-1784563872308-6v3mduwri" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; z-index: 0 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A sunlit wooden table from a top-down angle, filled with homemade baked goods: a plate of chocolate chip cookies, vanilla cupcakes with pink frosting, a glass of milk, and a small handwritten recipe card with a red heart doodle. Warm morning light streams from the right side, creating soft shadows. The left portion of the image gradually fades to a soft vanilla cream color." width="1200" height="600" src="/assets/site-image-index-hero-image-1.webp" alt="מאפים ביתיים על שולחן עץ באור בוקר חמים" data-hero-background="true" data-element-type="image" data-element-id="img-1784563872308-6v3mduwri" style="object-position: 0% 50%; margin: 0; position: absolute; width: 100%; height: 100%; max-width: none; max-height: none; display: block !important; object-fit: cover; inset: 0" data-zappy-zoom="1" decoding="async"></div>
 
   <!-- Solid panel overlay for copy -->
   <div class="hero-fade-content">
@@ -1291,7 +1291,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="1" class="index-features-section" data-layout-spec="בית-features" dir="rtl">
+<section data-band-index="1" class="index-features-section" data-layout-spec="בית-features" dir="rtl" id="index-features-section">
   <div class="index-features-section__container">
     <!-- Section Header -->
     <header class="index-features-section__header">
@@ -1303,9 +1303,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="index-features-section__grid">
       
       <!-- Card 1: Cookies -->
-      <article class="index-features-card">
+      <article class="index-features-card" data-grid-item-index="0">
         <div class="index-features-card__image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="A stack of buttery, golden homemade cookies on a white ceramic plate, dusted with powdered sugar, soft morning light, shallow depth of field, cozy kitchen background" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="עוגיות חמאה ביתיות מונחות על צלחת לבנה" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-1" data-context="A stack of buttery, golden homemade cookies on a white ceramic plate, dusted with powdered sugar, soft morning light, shallow depth of field, cozy kitchen background" width="600" height="400" src="/assets/site-image-index-features-image-1.webp" alt="עוגיות חמאה ביתיות מונחות על צלחת לבנה" data-element-type="image" data-element-id="img-1784563872309-pknm10j03" fetchpriority="low">
         </div>
         <div class="index-features-card__content">
           <h3 class="index-features-card__title">עוגיות חמאה</h3>
@@ -1315,14 +1315,14 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <span class="index-features-card__icon-badge" aria-label="אפיה טרייה">🥣</span>
             <span class="index-features-card__icon-badge" aria-label="אריזה אישית">🎀</span>
           </div>
-          <a href="/contact" class="index-features-card__cta">להזמנה מראש <span aria-hidden="true">←</span></a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="index-features-card__cta">להזמנה מראש <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
       <!-- Card 2: Cupcakes -->
-      <article class="index-features-card">
+      <article class="index-features-card" data-grid-item-index="1">
         <div class="index-features-card__image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Colorful vanilla cupcakes with pastel pink and mint green frosting swirls, topped with rainbow sprinkles, arranged on a rustic wooden cake stand, bright and cheerful composition" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="קאפקייקס צבעוניים עם קצפת ורודה וירוקה" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-2" data-context="Colorful vanilla cupcakes with pastel pink and mint green frosting swirls, topped with rainbow sprinkles, arranged on a rustic wooden cake stand, bright and cheerful composition" width="600" height="400" src="/assets/site-image-index-features-image-2.webp" alt="קאפקייקס צבעוניים עם קצפת ורודה וירוקה" data-element-type="image" data-element-id="img-1784563872309-hqb3xns0p" fetchpriority="low">
         </div>
         <div class="index-features-card__content">
           <h3 class="index-features-card__title">קאפקייקס צבעוניים</h3>
@@ -1332,14 +1332,14 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <span class="index-features-card__icon-badge" aria-label="קרם חמאה">🧁</span>
             <span class="index-features-card__icon-badge" aria-label="הפתעה בפנים">🎉</span>
           </div>
-          <a href="/contact" class="index-features-card__cta">לתיאום מראש <span aria-hidden="true">←</span></a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="index-features-card__cta">לתיאום מראש <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
       <!-- Card 3: Celebration Cakes -->
-      <article class="index-features-card">
+      <article class="index-features-card" data-grid-item-index="2">
         <div class="index-features-card__image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="A simple yet elegant two-tier vanilla celebration cake with smooth white frosting, fresh strawberries on top, and a single lit candle, photographed on a marble countertop with soft natural light" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="עוגת חגיגה דו קומתית עם תותים ונר" fetchpriority="low">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1784563872309-dgbv4846w" data-element-type="image" data-zappy-zoom-wrapper-width="380px" data-zappy-zoom-wrapper-height="285px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 285px !important; display: block !important; padding-bottom: 0px !important; min-height: 0px !important; max-height: none !important;" data-zappy-card-slot-fill="1" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" class="zappy-resizable-hover"><img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="A simple yet elegant two-tier vanilla celebration cake with smooth white frosting, fresh strawberries on top, and a single lit candle, photographed on a marble countertop with soft natural light" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="עוגת חגיגה דו קומתית עם תותים ונר" data-element-type="image" data-element-id="img-1784563872309-dgbv4846w" style="object-position: 47% 51%; margin: 0px !important; left: -1.180905% !important; top: -1.02% !important; width: 102.512563% !important; height: 102% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important;" data-zappy-zoom="1.02" fetchpriority="low"></div>
         </div>
         <div class="index-features-card__content">
           <h3 class="index-features-card__title">עוגות חגיגה</h3>
@@ -1349,14 +1349,28 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <span class="index-features-card__icon-badge" aria-label="עיצוב אישי">✨</span>
             <span class="index-features-card__icon-badge" aria-label="שכבות עשירות">🍰</span>
           </div>
-          <a href="/contact" class="index-features-card__cta">לתיאום אישי <span aria-hidden="true">←</span></a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="index-features-card__cta">לתיאום אישי <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
       <!-- Card 4: Sharing Boxes -->
-      <article class="index-features-card">
+      <article class="index-features-card" data-grid-item-index="3" style="grid-column-start: auto !important; grid-column-end: auto !important; grid-row-start: auto !important; grid-row-end: auto !important;">
         <div class="index-features-card__image-wrapper">
-          <img loading="lazy" decoding="async" data-placeholder="index-features-image-4" data-context="A beautifully packed kraft gift box filled with an assortment of homemade cookies, mini cupcakes, and chocolate truffles, tied with a red and white baker" s="" twine,="" placed="" on="" a="" linen="" tablecloth'="" width="600" height="400" src="/assets/site-image-index-features-image-4.webp" alt="קופסת שיתוף מהודרת עם מבחר מתוקים ביתיים" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-3" data-context="A simple yet elegant two-tier vanilla celebration cake with smooth white frosting, fresh strawberries on top, and a single lit candle, photographed on a marble countertop with soft natural light" width="600" height="400" src="/assets/site-image-index-features-image-3.webp" alt="עוגת חגיגה דו קומתית עם תותים ונר" data-element-type="image" data-element-id="img-1784563872309-dgbv4846w-dup-1784564478103-d0243u" style="cursor: pointer;" fetchpriority="low">
+        </div>
+        <div class="index-features-card__content">
+          <h3 class="index-features-card__title">עוגות חגיגה</h3>
+          <p class="index-features-card__description">עוגות יום הולדת ואירועים בעיצוב אישי. כל עוגה נאפית במיוחד עבורכם, עם שכבות וניל או שוקולד, קרם עדין וקישוטים טריים שמשמחים את הלב.</p>
+          <div class="index-features-card__icons">
+            <span class="index-features-card__icon-badge" aria-label="תותים טריים">🍓</span>
+            <span class="index-features-card__icon-badge" aria-label="עיצוב אישי">✨</span>
+            <span class="index-features-card__icon-badge" aria-label="שכבות עשירות">🍰</span>
+          </div>
+          <p class="zappy-editable"><a href="/contact" class="index-features-card__cta">לתיאום אישי <span aria-hidden="true">←</span></a>
+        </p></div>
+      </article><article class="index-features-card" data-grid-item-index="4">
+        <div class="index-features-card__image-wrapper">
+          <img loading="lazy" decoding="async" data-placeholder="index-features-image-4" data-context="A beautifully packed kraft gift box filled with an assortment of homemade cookies, mini cupcakes, and chocolate truffles, tied with a red and white baker" s="" twine,="" placed="" on="" a="" linen="" tablecloth'="" width="600" height="400" src="/assets/site-image-index-features-image-4.webp" alt="קופסת שיתוף מהודרת עם מבחר מתוקים ביתיים" data-element-type="image" data-element-id="img-1784563872309-dic25dl1m" fetchpriority="low">
         </div>
         <div class="index-features-card__content">
           <h3 class="index-features-card__title">קופסאות שיתוף</h3>
@@ -1366,8 +1380,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
             <span class="index-features-card__icon-badge" aria-label="משלוח עד הבית">🚲</span>
             <span class="index-features-card__icon-badge" aria-label="הפתעה מתוקה">💝</span>
           </div>
-          <a href="/contact" class="index-features-card__cta">להרכבת מארז <span aria-hidden="true">←</span></a>
-        </div>
+          <p class="zappy-editable"><a href="/contact" class="index-features-card__cta">להרכבת מארז <span aria-hidden="true">←</span></a>
+        </p></div>
       </article>
 
     </div>
